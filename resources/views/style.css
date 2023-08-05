@@ -1,0 +1,38 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+
+.invoice{
+    padding: 20px;
+    font-family: "Montserrat";
+    background: #fff;
+}
+.invoice i{
+    color: #ccc;
+    font-size: 30px
+}
+.invoice .fa-car{
+    color: #3c8dbc
+}
+
+.invoice table{
+    width: 100%
+}
+.invoice table td{
+    width: 50%
+}
+.invoice .header{
+    display: flex;
+    justify-content: space-between;
+}
+.invoice .body{
+
+}
+.invoice .body .top{
+    display: flex;
+    justify-content: space-between;
+}
+.invoice .body .middle{
+
+}
+.invoice .footer{
+
+}

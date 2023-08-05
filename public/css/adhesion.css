@@ -1,0 +1,518 @@
+/* CSS for Adhesion general */
+body {
+    background: url(../images/bg.jpg) no-repeat center fixed !important;
+}
+
+.post-response, .response-email, response-password{
+    color: #ff0000;
+}
+
+.has-error{
+    border: 1px solid #ff0000;
+}
+
+.pdd-l-r{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.next-step {
+    background-color: #0c3d67;
+}
+
+.end-step{
+    background-color: #0c3d67;
+}
+
+.wizcenter {
+    left: 0px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cartemode{
+    text-align: left;
+}
+
+.navbar{
+    height: 85px;
+    background-color: #ffffff;
+}
+
+.logo-box{
+    position: relative;
+    right: -40px;
+    height: 85px;
+    width: 100%;
+    z-index: 1000;
+    background-color: #ffffff;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    transform: skew(-30deg);
+}
+
+.logo{
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    /*border: 1px solid #000000;*/
+    overflow: hidden;
+}
+
+.logo img{
+    /*height: 100%;
+    width: 175px;*/
+    margin-top: -20px;
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    transform: skew(30deg);
+}
+
+.site-description {
+    min-height: 30px;
+    padding-top: 5px;
+    padding-left: 19px;
+    /*padding-bottom: 8px;*/
+    background: #B7D283;
+    color: #fff;
+    text-transform: uppercase;
+    text-indent: 50px;
+}
+
+.site-name{
+    min-height: 55px;
+    padding-top: 15px;
+    padding-left: 20px;
+    /*padding-bottom: 15px;*/
+    background: #0c3d67;
+    color: #ffffff;
+    text-indent: 30px;
+    text-transform: uppercase;
+}
+
+.prixtarif{
+    padding-top: 20px;
+    font-family: Calibri;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+.tarif{
+    text-align: center;
+    color:#0c3d67 ;
+    font-size: 20px;
+}
+
+.ordre-env{
+    color: #B7D283;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.addresse-env{
+    color: #0c3d67;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* CSS for Wizard */
+.wizard {
+    margin-top: 0px;
+    background: #fff;
+    padding-top: 50px;
+}
+
+.wizard .nav-tabs {
+    position: relative;
+    margin: 40px auto;
+    margin-bottom: 0;
+    border-bottom-color: #e0e0e0;
+}
+
+.wizard > div.wizard-inner {
+    position: relative;
+}
+
+.connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+span.round-tab i{
+    color:#555555;
+}
+.wizard li.active span.round-tab {
+    background: #fff;
+    border: 2px solid #5bc0de;
+
+}
+.wizard li.active span.round-tab i{
+    color: #5bc0de;
+}
+
+span.round-tab:hover {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.wizard .nav-tabs > li {
+    width: 25%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 4px;
+    border: 5px solid transparent;
+    border-bottom-color: #5bc0de;
+    transition: 0.1s ease-in-out;
+}
+
+.wizard li.active:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 4px;
+    border: 10px solid transparent;
+    border-bottom-color: #5bc0de;
+}
+
+.wizard .nav-tabs > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+.wizard .nav-tabs > li a:hover {
+    background: transparent;
+}
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 50px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+@media( max-width : 585px ) {
+    .main-container{
+        max-width : 100%;
+        margin : auto;
+    }
+    .main-container > .col-md-12{
+        margin : auto;
+    }
+    .main-container > .row{
+        margin : auto;
+    }
+    .logo-box{
+        height : 50px;
+    }
+    .site-description{
+        display: none;
+    }
+    .wizard {
+        width: 100%;
+        height: auto !important;
+    }
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+}
+
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+.download-picture{
+    padding : 40px 10px;
+    background: #d5ddda;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.download-picture i{
+    font-size : 80px;
+}
+.card-icon{
+    max-width: 30px;
+    width: 30px;
+    position: absolute;
+    z-index: 5;
+    margin-top: 5px;
+}
+input[name="cardNumber"]{
+    padding-left: 25px !important;
+}
+li[role="presentation"] a{
+    text-decoration: none;
+}
+.theme-mydpc .nav-tabs > li > a::before{
+    border-bottom : none !important;
+}
+form .btn.flex-btn{
+    display: inline-flex;
+    justify-content: center;
+}
+form .btn .glyphicon{
+    position: relative;
+    top : -1px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.img-responsive {
+    display: block;
+    max-width: 150px;
+    height: auto;
+}
+.paiement-box{
+    max-width : 350px;
+    width : 100%;
+    margin : auto;
+}
+.paiement-box .header{
+    text-align: center;
+}
+.info-click{
+    margin-top : 5px;
+    font-size : 11px;
+}
+.virement-info{
+    margin-top : 20px;
+}
+.help-info i{
+    float: right;
+    font-size: 18px !important;
+    margin-top: -5px;
+    color: #999;
+    margin-left: 5px;
+}
+#fulleIdentityBox{
+    text-align: center;
+}
+.attention{
+    margin-bottom : 0px;
+}
+.attention-box{
+    margin-bottom : 15px;
+}
+.panel-group,.panel-group *, .panel-body{
+    cursor: default !important;
+}
+.adherer.capitalize:first-letter{
+    text-transform: uppercase;
+}
+#user-list-content{
+    padding: 140px 40px 100px 40px;
+    background: white;
+}
+@media (max-width: 750px) {
+    #transfertbox .table tr td {
+        border: none !important;
+        border-right: 1px solid #0303031a !important;
+    }
+    #transfertbox .table tr td:last-child{
+        border-right : none !important;
+    }
+}
+.attention.red{
+    color : red;
+}
+#bluecardbox, #chequebox, #notif-box, #paiement-type-box{
+    max-width : 500px;
+    margin : auto;
+}
+#notif-box{
+    margin-top : 15px;
+}
+.body-container{
+    padding: 100px 20px 40px 20px;
+    background: white;
+}
+h2.title{
+    padding : 10px 0px;
+    border-bottom : 1px solid #B7D283;
+    position: relative;
+    margin-bottom : 20px;
+    font-size: 20px;
+}
+h2.title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 5px;
+    background-color: #B7D283;
+}
+.formation-box{
+    margin : 0px;
+    padding-bottom : 15px;
+    padding-top : 15px;
+    border-bottom : 1px solid #bcbcbc;
+}
+.subtitle{
+    display: block;
+    color: #888;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 0;
+    margin: 5px 0;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.description-theme{
+    font-size : 12px;
+    margin-top : 10px;
+}
+.theme-info-box > div > div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size : 12px;
+}
+.btn:not(.btn-link):not(.btn-circle) i {
+    font-size: 16px;
+    position: relative;
+    float: left;
+    top: 2px;
+    margin-right: 5px;
+}
+.custom-left tbody tr td,
+.paiement-table tbody tr td:first-child{
+    text-align : left;
+    padding-left : 25px;
+}
+.description-theme.sumary{
+    max-height: 250px;
+    width: 100%;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+.formation--infos .material-icons{
+    font-size : 12px;
+}
+.panel-heading.prise-en-charge a{
+    cursor : pointer;
+}
+.box-grey.formation--infos--important .material-icons{
+    font-size : 15px;
+}
+.box-xgrey{
+    background : #E7E7E7;
+    padding: 10px;
+}
+.list-hours{
+    margin-left : 40px;
+}
+.panel-group .panel .panel-heading a{
+    cursor: pointer !important;
+}
+.col-md-12.attention-box {
+    display: inline-block !important;
+}

@@ -1,0 +1,404 @@
+
+tr.is-disabled,tr.disabled{
+    opacity : 0.4 !important;
+    font-style: italic !important;
+    background : rgba(255, 0, 0, 0.11) !important;
+}
+.small-note{
+    display: block;
+    font-size : 0.7em;
+}
+.list-group-item-gris {
+    background-color: #f5f5f5;
+}
+.badge-danger{
+    background:#FF0000;
+}
+
+table i.material-icons{
+    font-size : 16px !important;
+}
+tr.lock{
+    opacity: 0.45;
+}
+h2.title{
+    padding : 10px 0px;
+    border-bottom : 1px solid #B7D283;
+    position: relative;
+    margin-bottom : 20px;
+    font-size: 20px;
+}
+h2.title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 5px;
+    background-color: #B7D283;
+}
+.describe{
+    padding-left : 50px;
+}
+#map{
+    height : 300px;
+}
+.box-grey{
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    color: #222;
+    display: block;
+    padding-left : 30px;
+}
+.last-container>p:last-child{
+    opacity: 0.7;
+}
+.formation--infos--date i, .formation--infos--general i, .formation--infos--important i, .formation--infos--lieu i {
+    float: left;
+    margin-top: 3px;
+    /*margin-left: -25px;*/
+    margin-right : 6px;
+    font-size: 16px;
+}
+ul.ullist li{
+    list-style-type: disc;
+}
+#PractitionnerResponsable td:last-child a:last-child{
+    display: none;
+}
+.clgreen{
+    color : green !important;
+}
+.clred{
+    color : darkred !important;
+}
+.navbar{
+    z-index : 200 !important;
+}
+.formation-contaienr table{
+    width : 100%;
+}
+.ullastchild{
+    opacity : 0.6;
+}
+.ullist.nopad{
+    padding-left : 12px;
+}
+.table-responsive-container{
+    width : 100% !important;
+    overflow : hidden;
+    overflow-x : auto;
+}
+#PractitionerPicture {
+    position: absolute;
+    width: 70px;
+    right: 20px;
+    margin-top: -18px;
+}
+.sidebar .ml-menu a small.badge{
+    font-size : 0.8em;
+}
+.sidebar .menu .list a small.badge{
+    position: absolute;
+    top: calc(50% - 7.5px);
+    right: 40px;
+    margin-top: -4px;
+    border-radius: 0px;
+}
+.sw-theme-circles > ul.step-anchor > li:first-child{
+    margin-left: 0px !important;
+}
+.question-item {
+    border: 1px solid #CCC;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.canvasjs-chart-credit{
+    display : none;
+}
+.bar-item{
+    display : inline-block;
+    height : 20px;
+}
+.no-padding{
+    padding : 0px !important;
+}
+.list-group .list-group-item.vsubstep.active{
+    background : #3498db !important;
+}
+
+.dim.ls-closed .bars{
+    display: block  !important;;
+}
+.dim.ls-closed .navbar-brand{
+    margin-left : 20px !important;
+}
+.dim.ls-closed .bars::after {
+    content: '\E5C4' !important;
+    -webkit-transform: scale(0) !important;
+    transform: scale(0) !important;
+}
+.dim.ls-closed .bars::after {
+    content: '\E5C4' !important;;
+    -webkit-transform: scale(0) !important;;
+    transform: scale(0) !important;;
+}
+
+.dim.ls-closed .bars::before {
+    content: '\E5D2' !important;;
+    -webkit-transform: scale(1) !important;;
+    transform: scale(1) !important;;
+}
+.dim.ls-closed .bars::before {
+    content: '\E5D2' !important;;
+    -webkit-transform: scale(1) !important;;
+    transform: scale(1) !important;;
+}
+.adhesion.validate.panel-default > .panel-heading{
+    background: #27ae60;
+    border-color : #27ae60;
+    color : white;
+}
+.adhesion.payed.panel-default > .panel-heading{
+    background: #2980b9;
+    border-color : #2980b9;
+    color : white;
+}
+.adhesion.waiting.panel-default > .panel-heading{
+    background: #e67e22;
+    border-color : #e67e22;
+    color : white;
+}
+.adhesion.novalidate{
+    color : white;
+}
+.detail-paiement{
+    border-left : 1px solid #c9c9c9;
+}
+@media (max-width: 750px) {
+    .detail-paiement{
+        border-left : none;
+    }
+}
+.paiement-detail-container{
+    width : 90%;
+    margin : auto;
+}
+.paiement-virement-info{
+    text-align: center;
+    color : #e74c3c;
+}
+.paiement-validate-info{
+    color : #27ae60;
+}
+.paiement-info{
+    text-align: center;
+}
+.paiement-info-box{
+    display: none;
+}
+#PractitionerPicture {
+    position: static;
+    width: 100%;
+    right: 0;
+    margin-top: 10px;
+}
+
+
+@media only screen and(min-width: 750px) {
+    .dim.ls-closed .bars::after, .ls-closed .bars::before {
+        font-family: 'Material Icons' !important;;
+        font-size: 24px !important;
+        position: absolute !important;
+        top: 18px !important;;
+        left: 20px !important;;
+        margin-right: 10px !important;;
+        -webkit-transform: scale(0) !important;;
+        transform: scale(0) !important;;
+        -webkit-transition: all 0.3s !important;;
+        transition: all 0.3s !important;;
+    }
+    .dim.ls-closed .bars::after, .ls-closed .bars::before {
+        font-family: 'Material Icons' !important;;
+        font-size: 24px !important;;
+        position: absolute !important;
+        top: 18px !important;;
+        left: 20px !important;;
+        margin-right: 10px !important;;
+        -webkit-transform: scale(0) !important;;
+        transform: scale(0);
+        -webkit-transition: all 0.3s !important;;
+        transition: all 0.3s !important;;
+    }
+}
+.adresse-detail p i{
+    position: relative;
+    top: 8px;
+}
+.logout-link{
+    float : right;
+    color : white;
+    margin-top: 20px;
+}
+.logout-link.mobile{
+    display: none;
+}
+.navbar-toggle.collapsed{
+    display: none;
+}
+.body .table{
+    font-size : 1.1rem;
+}
+
+.formation--infos .material-icons{
+    font-size : 12px;
+}
+.panel-heading.prise-en-charge a{
+    cursor : pointer;
+}
+.box-grey.formation--infos--important .material-icons{
+    font-size : 15px;
+}
+.box-xgrey{
+    background : #E7E7E7;
+    padding: 10px;
+}
+.list-hours{
+    margin-left : 40px;
+}
+.detail-formation-column h4, .detail-formation-column h1,.detail-formation-column h2, .detail-formation-column h3{
+    font-weight: bold;
+}
+.table.table-no-border tr td{
+    border : none;
+}
+#bluecardbox, #chequebox, #transfertbox{
+    display: none;
+}
+.paiement-type-box{
+    text-align: center;
+}
+.ordre-env {
+    color: #B7D283;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+.header.align-center{
+    border : none !important;
+}
+.addresse-env{
+    color: #0c3d67;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.tarif {
+    text-align: center;
+    color: #0c3d67;
+    font-size: 20px;
+}
+.btn-validate-steps{
+    min-width : 240px;
+}
+.step-description{
+    clear: both;
+    color : #9fa4a8;
+    font-size : 0.8em;
+    display: block;
+    margin-top : 4px;
+    margin-left : 30px;
+}
+.list-group-item.substep{
+    padding-left : 30px;
+    padding-right : 48px;
+}
+.list-group-item-gris.active .step-description,
+.list-group-item.substep.active .step-description{
+    color : white;
+}
+.note-of-step{
+    border: 1px solid transparent;
+    background: #ecf0f1;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    width: 40px;
+    height : 40px;
+    margin-top : -20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius : 50%;
+    text-align: center;
+    font-size : 11px;
+    color : black;
+}
+.state-of-step{
+    float : left;
+}
+.activity-tab-header .material-icons{
+    display: none;
+}
+.activity-tab-header.validate .material-icons{
+    display: inline-block;
+    color : green;
+}
+.activity-tab-header.checking .material-icons{
+    display: inline-block;
+    color : orange;
+}
+.note-of-step.done{
+    background : #27ae60;
+    color : white;
+}
+.note-of-step.start{
+    background : #e67e22;
+    color : white;
+}
+.state-type{
+    color: #c0392b;
+    text-align: left;
+    font-size: 0.9em;
+    margin-top: 8px;
+}
+.list-group-item.not-yet{
+    opacity: 0.7;
+}
+.list-group-item.parent .state-type{
+    margin-left: 15px;
+    color: #97043a;
+}
+.list-group-item.done .state-type{
+    color : #006f2f;
+}
+.mooc-state{
+    text-align: center;
+    padding : 10px 5px;
+}
+.mooc-state i{
+    display: block;
+    margin-bottom : 6px;
+}
+.mooc-state.not-done{
+    background: #e74c3c;
+    color : white;
+}
+.mooc-state.done{
+    background : #27ae60;
+    color : white;
+}
+@media only screen and (max-width : 550px) {
+
+    .logout-link.desktop{
+        display: none;
+    }
+    .logout-link.mobile{
+        display: inline-block;
+        margin-top: 12px;
+    }
+}

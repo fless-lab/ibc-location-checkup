@@ -1,0 +1,293 @@
+
+.pouss{
+    margin-right: 200px;
+}
+.form-item {
+    text-align: center;
+}
+hr{
+
+margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+.hasTooltip {
+    display: inline !important;}
+
+.espace{
+    margin-top: 40px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+.espacetext{
+    margin-top: 40px;
+    margin-left: 200px;
+    font-family: "Times New Roman";
+    font-size: 30px;
+}
+
+.espace2{
+    margin-left: 400px;
+
+}
+.espace3{
+    margin-top: 0px;
+
+}
+.formeformulaire{
+    width: 90%;
+    height: 100%;
+    margin: 5%;
+
+}
+
+.tete{
+
+    background-color: #B7D283;
+    width: 100%;
+    height: 90px;
+}
+.gauche{
+
+    background-color:#0c3d67;
+    width: 100%;
+    height: 60px;
+}
+.logo{
+    margin-left: 0px;
+background-color: white;
+}
+.espatrait{
+    margin-right: 200px;
+}
+.paiement{
+   width: 30%;
+    height: 40%;
+    margin-left: 30%;
+}
+.trait{
+
+    width: 100%;
+     font-size: 20px;
+
+}
+.input-form{
+    height: 30px;
+    width: 80%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  margin-left: 100px;
+    margin-right: 20px;
+
+}
+.label-position{
+    width: 90px;
+    text-align: end;}
+
+.label-psition{
+  width: 180px;
+    text-align: end;
+
+
+}
+.text{
+    font-size: 18px;
+}
+.espbouton{
+    margin-top: 50px;
+}
+.wizard {
+    margin: 20px auto;
+    background: #fff;
+}
+
+.wizard .nav-tabs {
+    position: relative;
+    margin: 40px auto;
+    margin-bottom: 0;
+    border-bottom-color: #e0e0e0;
+}
+
+.wizard > div.wizard-inner {
+    position: relative;
+}
+
+.connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+span.round-tab i{
+    color:#555555;
+}
+.wizard li.active span.round-tab {
+    background: #fff;
+    border: 2px solid #5bc0de;
+
+}
+.wizard li.active span.round-tab i{
+    color: #5bc0de;
+}
+
+span.round-tab:hover {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.wizard .nav-tabs > li {
+    width: 25%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #5bc0de;
+    transition: 0.1s ease-in-out;
+}
+
+.wizard li.active:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #5bc0de;
+}
+
+.wizard .nav-tabs > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+.wizard .nav-tabs > li a:hover {
+    background: transparent;
+}
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 0px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+@media( max-width : 585px ) {
+
+    .wizard {
+        width: 90%;
+        height: auto !important;
+    }
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+}
+
+/* Padding - just for asthetics on Bootsnipp.com */
+
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.cardepaiement{
+    width: 335px;
+    height: 77px;
+}
+.pnel-body {
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}

@@ -1,0 +1,43 @@
+.liste{
+   color: blue;
+}
+#hkb .hkb-site-search {
+    display: block;
+    margin: 0 auto !important;
+    max-width: 100%;
+    min-width: 70%;
+}
+#hkb .hkb-site-search .hkb-site-search__field {
+    border-radius: 50px;
+
+    float: none !important;
+}
+.container{
+    width: auto;
+}
+#hkb ul li {
+    background: none;
+    list-style: none;
+}
+#hkb *, #hkb *:before, #hkb *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dada-faq-accordion .panel {
+    padding: 15px 0;
+    box-shadow: none;
+    background: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.base-font, .base-font * {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 300 !important;
+    letter-spacing: 0;
+}
+P{
+    padding-top: 20px;
+}

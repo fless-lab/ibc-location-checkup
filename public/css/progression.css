@@ -1,0 +1,338 @@
+
+.circle{
+    margin: 10px;
+    width: 40px;
+    background:#FF0000;
+    height: 22px;
+    text-align:center;
+    border-radius:100px;
+    line-height: 24px; /* 100 - 10 */
+    color: #fff;
+}
+.subtitle {
+    color: #888;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 0;
+    margin: 1em 0;
+    line-height: 1;
+    text-transform: uppercase;
+}
+tr.substep[data-order="0"] .material-icons{
+    display: inline-block !important;
+}
+#steps td{
+    vertical-align: middle;
+}
+#steps .substep td{
+    padding-left : 10px !important;
+}
+#steps .substep td.pd{
+    padding-left : 10px !important;
+}
+#steps .substep td .required{
+    font-size : 16px;
+    color : red;
+}
+.progress {
+    height: 10px !important;
+    margin-bottom : 0px !important;
+    display: inline-block;
+    width: 80%;
+}
+h2.title{
+    padding : 10px 0px;
+    border-bottom : 1px solid #B7D283;
+    position: relative;
+    margin-bottom : 20px;
+    font-size: 20px;
+}
+h2.title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 5px;
+    background-color: #B7D283;
+}
+.describe{
+    padding-left : 50px;
+}
+#map{
+    height : 300px;
+}
+.box-grey{
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    color: #222;
+    display: block;
+    padding-left : 30px;
+}
+tr.step {
+    background-color: #F7F7F7;
+    color: black;
+}
+tr.substep {
+    background-color: #FFF;
+    color: black;
+}
+.last-container>p:last-child{
+    opacity: 0.7;
+}
+.progress-bar{
+    border: 1px solid #f9f9f9;
+}
+.activity-container{
+    display: none;
+}
+.formation--infos--date i, .formation--infos--general i, .formation--infos--important i, .formation--infos--lieu i {
+    float: left;
+    margin-top: 3px;
+    /*margin-left: -25px;*/
+    margin-right : 6px;
+    font-size: 16px;
+}
+ul.ullist li{
+    list-style-type: disc;
+}
+#PractitionnerResponsable td:last-child a:last-child{
+    display: none;
+}
+#progression-groupe{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#progression-groupe .stepcontainer{
+    width : 50px;
+    height : 50px;
+    border-radius : 50%;
+    background: #fff;
+    border : 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size : 0.8em;
+    margin : auto;
+}
+#progression-groupe .stepcontainerbox{
+    text-align: center;
+}
+#progression-groupe .bar-between{
+    /*width : 40%;*/
+}
+#progression-groupe .bar-between:last-child{
+    display: none;
+}
+.progression-block{
+    margin-bottom : 40px;
+}
+.smartwizardstepname{
+    max-width: 120px;
+    text-align: center;
+    text-overflow: ellipsis;
+    word-wrap: unset;
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#smartwizard{
+    width : 100%;
+}
+.clgreen{
+    color : green !important;
+}
+.clred{
+    color : darkred !important;
+}
+#steps .badge{
+    margin-left : 10px;
+    border-radius : 0px;
+}
+.progress-bar{
+    height : 20px !important;
+}
+.progress-container{
+    display: inline-block;
+    width : 70%;
+}
+.progress-container-label{
+    position : relative;
+    font-size : 0.8em;
+    top: -5px;
+}
+.sw-theme-circles > ul.step-anchor > li > a {
+    color: white !important;
+    background: #B7D283 !important;
+    margin: auto !important;
+}
+.sw-theme-circles > ul.step-anchor > li > a:hover {
+    color: white !important;
+    background: #B7D283 !important;
+}
+.navbar{
+    z-index : 200 !important;
+}
+.formation-contaienr table{
+    width : 100%;
+}
+.ullastchild{
+    opacity : 0.6;
+}
+.ullist.nopad{
+    padding-left : 12px;
+}
+.table-responsive-container{
+    width : 100% !important;
+    overflow : hidden;
+    overflow-x : auto;
+}
+#PractitionerPicture {
+    position: absolute;
+    width: 70px;
+    right: 20px;
+    margin-top: -18px;
+}
+.sidebar .ml-menu a small.badge{
+    font-size : 0.8em;
+}
+.sidebar .menu .list a small.badge{
+    position: absolute;
+    top: calc(50% - 7.5px);
+    right: 40px;
+    margin-top: -4px;
+    border-radius: 0px;
+}
+.sw-theme-circles > ul.step-anchor > li:first-child{
+    margin-left: 0px !important;
+}
+
+.progress-circle {
+    display: block;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    width: 80px;
+    -webkit-backface-visibility: hidden;
+    margin-top: -3px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.progress-circle.progress-circle-warning .pie .half-circle {
+    border-color: #f8d053;
+}
+
+.progress-circle.progress-circle-danger .pie .half-circle {
+    border-color: #f55753;
+}
+
+.progress-circle.progress-circle-info .pie .half-circle {
+    border-color: #3b4752;
+}
+
+.progress-circle.progress-circle-primary .pie .half-circle {
+    border-color: #6d5cae;
+}
+
+.progress-circle.progress-circle-success .pie .half-circle {
+    border-color: #10cfbd;
+}
+
+.progress-circle.progress-circle-complete .pie .half-circle {
+    border-color: #48b0f7;
+}
+
+.progress-circle.progress-circle-thick .pie .half-circle, .progress-circle.progress-circle-thick .shadow {
+    border-width: 5px;
+}
+
+.progress-circle .pie {
+    clip: rect(0, 80px, 80px, 40px);
+    height: 95px;
+    position: absolute;
+    width: 95px;
+}
+
+.progress-circle .pie .half-circle {
+    border: 3px solid #626262;
+    border-radius: 50%;
+    clip: rect(0, 40px, 80px, 0);
+    height: 80px;
+    position: absolute;
+    width: 80px;
+}
+.progress-td .progress-circle .pie .half-circle{
+    clip: rect(0, 22.5px, 45px, 0);
+    height: 45px;
+    position: absolute;
+    width: 45px;
+}
+.progress-td .progress-circle{
+    height: 45px;
+    width: 45px;
+}
+.progress-td .progress-circle .pie {
+    clip: rect(0, 45px, 45px, 22.5px);
+    height: 60px;
+    width: 60px;
+}
+
+.progress-circle .shadow {
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.perecent-text {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+}
+.progress-bleu .progress-circle .pie .half-circle{
+    border-color : #48B0F7 !important;
+}
+.progress-vert .progress-circle .pie .half-circle{
+    border-color : #10CFBD !important;
+}
+.progress-violet .progress-circle .pie .half-circle{
+    border-color : #6D5CAE !important;
+}
+.progress-orange .progress-circle .pie .half-circle{
+    border-color : #F8D053 !important;
+}
+.question-item {
+    border: 1px solid #CCC;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.canvasjs-chart-credit{
+    display : none;
+}
+.bar-item{
+    display : inline-block;
+    height : 20px;
+}
+.text-percent{
+    position : absolute;
+    left : 0px;
+    width : 100%;
+    text-align : center;
+    top : 50%;
+    margin-top : -7px;
+    font-size : 0.8em;
+}
+.progress-td .progress-circle.progress-circle-complete{
+    margin : auto;
+}
+.no-padding{
+    padding : 0px !important;
+}

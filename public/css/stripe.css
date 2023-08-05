@@ -1,0 +1,229 @@
+#credit-card{
+    background-color: #fff;
+}
+
+#credit-card* {
+    font-family: Source Code Pro, Consolas, Menlo, monospace;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#credit-card.row {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 5px 10px;
+}
+
+#credit-card.field {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 0 10px;
+}
+
+#credit-card.field.half-width {
+    width: 50%;
+}
+
+#credit-card.field.quarter-width {
+    width: calc(25% - 10px);
+}
+
+#credit-card.baseline {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background-color: #cfd7df;
+    transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#credit-cardlabel {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 8px;
+    color: #cfd7df;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transform-origin: 0 50%;
+    cursor: text;
+    transition-property: color, transform;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#credit-card.input {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 7px;
+    color: #32325d;
+    background-color: transparent;
+}
+
+#credit-card.input::-webkit-input-placeholder {
+    color: transparent;
+    transition: color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#credit-card.input::-moz-placeholder {
+    color: transparent;
+    transition: color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#credit-card.input:-ms-input-placeholder {
+    color: transparent;
+    transition: color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#credit-card.input.StripeElement {
+    opacity: 0;
+    transition: opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    will-change: opacity;
+}
+
+#credit-card.input.focused,
+#credit-card.input:not(.empty) {
+    opacity: 1;
+}
+
+#credit-card.input.focused::-webkit-input-placeholder,
+#credit-card.input:not(.empty)::-webkit-input-placeholder {
+    color: #cfd7df;
+}
+
+#credit-card.input.focused::-moz-placeholder,
+#credit-card.input:not(.empty)::-moz-placeholder {
+    color: #cfd7df;
+}
+
+#credit-card.input.focused:-ms-input-placeholder,
+#credit-card.input:not(.empty):-ms-input-placeholder {
+    color: #cfd7df;
+}
+
+#credit-card.input.focused + label,
+#credit-card.input:not(.empty) + label {
+    color: #aab7c4;
+    transform: scale(0.85) translateY(-25px);
+    cursor: default;
+}
+
+#credit-card.input.focused + label {
+    color: #24b47e;
+}
+
+#credit-card.input.invalid + label {
+    color: #ffa27b;
+}
+
+#credit-card.input.focused + label + .baseline {
+    background-color: #24b47e;
+}
+
+#credit-card.input.focused.invalid + label + .baseline {
+    background-color: #e25950;
+}
+
+#credit-cardinput, #credit-cardbutton {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border-style: none;
+}
+
+#credit-cardinput:-webkit-autofill {
+    -webkit-text-fill-color: #e39f48;
+    transition: background-color 100000000s;
+    -webkit-animation: 1ms void-animation-out;
+}
+
+#credit-card.StripeElement--webkit-autofill {
+    background: transparent !important;
+}
+
+#credit-cardinput, #credit-cardbutton {
+    -webkit-animation: 1ms void-animation-out;
+}
+
+#credit-cardbutton {
+    display: block;
+    width: calc(100% - 30px);
+    height: 40px;
+    margin: 40px 15px 0;
+    background-color: #24b47e;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#credit-cardinput:active {
+    background-color: #159570;
+}
+
+#credit-card.error svg {
+    margin-top: 0 !important;
+}
+
+#credit-card.error svg .base {
+    fill: #e25950;
+}
+
+#credit-card.error svg .glyph {
+    fill: #fff;
+}
+
+#credit-card.error .message {
+    color: #e25950;
+}
+
+#credit-card.success .icon .border {
+    stroke: #abe9d2;
+}
+
+#credit-card.success .icon .checkmark {
+    stroke: #24b47e;
+}
+
+#credit-card.success .title {
+    color: #32325d;
+    font-size: 16px !important;
+}
+
+#credit-card.success .message {
+    color: #8898aa;
+    font-size: 13px !important;
+}
+
+#credit-card.success .reset path {
+    fill: #24b47e;
+}
+.StripeElement{
+    border: 1px solid #bbb9b9;
+    padding: 10px 8px;
+    border-radius: 5px;
+    padding-left: 34px !important;
+}
+#credit-card-expiry, #credit-card-cvc{
+    width : 99%;
+}
+#credit-card-cvc{
+    float : right;
+}
+.paiement-item{
+    position : relative;
+}
+.paiement-item>i{
+    position: absolute;
+    left: 6px;
+    top: 8px;
+    z-index: 99;
+    color: #e8e7e7;
+}

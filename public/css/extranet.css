@@ -1,0 +1,171 @@
+
+.titre{
+    color: #0c3d67 !important;
+    padding-left: 10px;
+    margin-left: 0px;
+    font-weight: lighter !important;
+    margin-top: -25px !important;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 2px;
+
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-top: -20px;
+    margin-bottom: 51px;
+}
+input.search-query, select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    border-radius: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: white;
+}
+
+.utilisateur {
+
+   text-align: right;
+    margin-top: -112px;
+
+}
+.position-image{
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+.page-header h1, .categories-list h1, .content-category h1, .item-page h1, .componentheading, .mijoshop h1, .category-view h1 {
+    color: #0c3d67 !important;
+    border-left: solid 17px #0c3d67;
+    padding-left: 10px;
+    margin-left: 0px;
+    font-weight: lighter !important;
+    margin-top: -2px !important;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 26px;
+    border-bottom: solid 0px #0c3d67;
+    height: 30px;
+
+}
+
+
+.logo {
+    float: right;
+    z-index: 1000;
+    margin-right: -40px;
+    height: 86px;
+    background: #fff;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    tranform: skew(-30deg);
+}
+.header-inner .brand {
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    tranform: skew(30deg);
+    margin-top: -20px;
+    display: block;
+    float: right;
+    margin-right: 45px;
+}
+.signature {
+    background: #B7D283;
+    color: #fff;
+}
+
+
+
+.site-description {
+    padding: 5px 0px 5px 3%;
+    text-transform: uppercase;
+    padding-left: 74px;
+
+
+} /*																	 PopUp Accueil */
+
+
+/*header .navbar .nav li:first-child {		padding-left:20px;		}		.navigation .nav li ul li:first-child {		padding-left:0px;		}*/
+.navigation .nav-pills {
+    padding-top: 20px;
+}
+header .navbar-default .navbar-nav>li>a {
+    border-radius: 0px;
+    margin: 0px;
+    color: #fff; /* border-right:solid 1px #3093b0;*/
+    font-size: 14px;
+    padding: 15px 5px;
+}
+
+header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #B7D283 !important;
+    color: #fff !important;
+}
+header.navbar-default .navbar-nav>.open>a, header .navbar-default .navbar-nav>.open>a:focus, header .navbar-default .navbar-nav>.open>a:hover {
+    background-color: #B7D283 !important;
+    color: #fff !important;
+}
+
+header .navbar-default .navbar-toggle {
+    border: none;
+    color: #000;
+    border-radius: 0px;
+    background: #fff;
+}
+.navbar .nav li.dropdown>.dropdown-toggle .caret {
+    border-bottom-color: #fff;
+    border-top-color: #fff;
+}
+.navbar .nav li.dropdown>.dropdown-toggle .caret, .navbar .nav li.dropdown.open>.dropdown-toggle .caret, .navbar .nav li.dropdown.active>.dropdown-toggle .caret, .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+    border-bottom-color: #fff;
+    border-top-color: #fff;
+}
+.navbar .nav li.dropdown>a:hover .caret {
+    border-bottom-color: #b7d283;
+    border-top-color: #b7d283;
+}
+
+.bg-black {
+    background: none !important;
+    background-color: #b7d283 !important ;
+}
+.theme-mydpc .sidebar .menu .list li.active > :first-child i, .theme-mydpc .sidebar .menu .list li.active > :first-child span {
+    color: #0c3d67 !important;
+}
+.theme-mydpc .sidebar .legal .copyright a {
+    color: #0c3d67 !important;
+}
+.theme-mydpc .nav-tabs > li > a::before {
+    border-bottom: 2px solid #b7d283 !important;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #0c3d67 !important;
+}
+.correspondance{
+    font-family: Calibri;
+    font-size: 14px;
+    text-align: justify;
+}
+.prixtarif{
+    padding-top: 20px;
+    font-family: Calibri;
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+.tarif{
+    text-align: center;
+    color:#0c3d67 ;
+    font-size: 20px;
+}
+.theme-mydpc .navbar {
+    /*background-color: #0c3d67 !important;*/
+    position: fixed;
+}
