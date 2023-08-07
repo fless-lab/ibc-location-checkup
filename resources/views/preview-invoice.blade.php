@@ -44,7 +44,7 @@
     <div class="header">
         <div class="left">
 {{--            {{ date('d/m/y') }}--}}
-            <img src="{{ url(env('STORAGE_PATH').'logo_easy.png') }}" style="width: 180px"/><br>
+            <img src="{{ url(env('STORAGE_PATH').'/logo_easy.png') }}" style="width: 180px"/><br>
             @if($data->express)
                 <br>
                 <i style="font-size: 12px; color: gray"><i class="fas fa-arrow-right" style="font-size: 12px !important;"></i> {{ $data->express }}</i>

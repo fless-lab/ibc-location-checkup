@@ -86,7 +86,7 @@
     <div class="container" style="margin-top: 30px">
         <br><br><br>
         <a class="navbar-brand js-scroll-trigger" href="{{ route('index') }}#page-top">
-            <img src="{{ url(env('STORAGE_PATH').'logo_easy.png') }}" style="width: 250px"/>
+            <img src="{{ url(env('STORAGE_PATH').'/logo_easy.png') }}" style="width: 250px"/>
             {{--<h1 style="color: #fff !important; font-weight: 100">IBC LOCATION</h1>--}}
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

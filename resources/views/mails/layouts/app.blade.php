@@ -168,7 +168,7 @@
 
                             <tr>
                                 <td align="center" height="70" style="height:70px;">
-                                    <a href="www.easycarrental.fr" style="display: block; border-style: none !important; border: 0 !important;"><img width="200" border="0" style="display: block; width: 200px;" src="{{ url(env('STORAGE_PATH').'logo_easy.png') }}" alt="" /></a>
+                                    <a href="www.easycarrental.fr" style="display: block; border-style: none !important; border: 0 !important;"><img width="200" border="0" style="display: block; width: 200px;" src="{{ url(env('STORAGE_PATH').'/logo_easy.png') }}" alt="" /></a>
                                 </td>
                             </tr>
                         </table>

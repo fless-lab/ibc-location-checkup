@@ -26,7 +26,7 @@
 </style>
 <header class="masthead"
         style="
-        background-image: url('{{ url(env('STORAGE_PATH').'3.jpg') }}')!important;
+        background-image: url('{{ url(env('STORAGE_PATH').'/3.jpg') }}')!important;
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center center;
